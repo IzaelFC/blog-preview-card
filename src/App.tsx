@@ -4,7 +4,7 @@ import avatar from './assets/images/image-avatar.webp'
 export default function App() {
   return (
     <main className="w-screen h-screen flex items-center justify-center bg-[--yellow]">
-      <section className="sm:w-[60vh] w-[45vh] flex flex-col font- gap-5 bg-white p-5 border border-black rounded-2xl shadow-[6px_6px_0px_2px] shadow-black">
+      <section className="sm:w-[55vh] w-[45vh] flex flex-col font- gap-3 bg-white p-5 border border-black rounded-2xl shadow-[6px_6px_0px_2px] shadow-black">
         <img className="rounded-xl" src={ illustration } alt="" />
         
         <span className="max-w-fit bg-[--yellow] text-sm font-sans font-bold p-2 rounded">Learning</span>
